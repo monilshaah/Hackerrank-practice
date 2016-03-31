@@ -1,27 +1,9 @@
+package algorithms.implementation;
+
 import java.util.Scanner;
 
 /**
- * Created by Monil on 3/15/16.
- *
- *
- * Taum is planning to celebrate the birthday of his friend, Diksha. There are two types of gifts that Diksha wants from Taum: one is black and the other is white. To make her happy, Taum has to buy BB number of black gifts and WW number of white gifts.
-
- The cost of each black gift is XX units.
- The cost of every white gift is YY units.
- The cost of converting each black gift into white gift or vice versa is ZZ units.
- Help Taum by deducing the minimum amount he needs to spend on Diksha's gifts.
-
- Input Format
-
- The first line will contain an integer TT which will be the number of test cases.
- There will be TT pairs of lines. The first line of each test case will contain the values of integers BB and WW. Another line of each test case will contain the values of integers XX, YY, and ZZ.
-
- Constraints
- 1≤T≤101≤T≤10
- 0≤X,Y,Z,B,W≤1090≤X,Y,Z,B,W≤109
- Output Format
-
- TT lines, each containing an integer: the minimum amount of units Taum needs to spend on gifts.
+ * https://www.hackerrank.com/challenges/taum-and-bday
  */
 public class BlackWhiteGifts {
 

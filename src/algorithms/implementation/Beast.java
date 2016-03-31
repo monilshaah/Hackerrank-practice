@@ -1,4 +1,10 @@
+package algorithms.implementation;
 
+
+/*
+* https://www.hackerrank.com/challenges/sherlock-and-the-beast
+*
+* */
 
 import java.util.Scanner;
 
