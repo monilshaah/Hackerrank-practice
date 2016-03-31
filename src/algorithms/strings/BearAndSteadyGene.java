@@ -68,10 +68,10 @@ public class BearAndSteadyGene {
 
         int low = 0, high = max-1;
 
-        while(low < high) {
+        /*while(low < high) {
             //check for char counts
             if ((length - ))
-        }
+        }*/
 
         return 0;
     }
