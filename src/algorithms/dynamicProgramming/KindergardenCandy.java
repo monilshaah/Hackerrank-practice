@@ -1,9 +1,13 @@
+package algorithms.dynamicProgramming;
+
 import java.util.Arrays;
 
 /**
  * Created by Monil on 3/27/16.
+ *
+ * https://www.hackerrank.com/challenges/candies
  */
-public class Candies {
+public class KindergardenCandy {
 
     public static void main(String[] args) {
 //        int[] ratings = {1,2,2};
