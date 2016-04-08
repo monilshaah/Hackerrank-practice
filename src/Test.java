@@ -1,8 +1,15 @@
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Stack;
+
 /**
  * Created by Monil on 3/17/16.
  */
 public class Test {
     public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+        Deque deque = new ArrayDeque();
+
         int i = 100000000;
         int j = 100000000;
 

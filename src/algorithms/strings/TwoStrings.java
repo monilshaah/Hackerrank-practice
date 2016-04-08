@@ -13,11 +13,11 @@ public class TwoStrings {
         for (int i = 0; i < tests; i++) {
             String str1 = sc.nextLine();
             String str2 = sc.nextLine();
-            checkForSubstrings(str1, str2);
+            System.out.println(checkForSubstrings(str1, str2));
         }
     }
 
-    private static void checkForSubstrings(String str1, String str2) {
+    public static String checkForSubstrings(String str1, String str2) {
         boolean[] alphabets = new boolean[26];
 
         for (int i = 0; i < str1.length(); i++) {
@@ -28,12 +28,13 @@ public class TwoStrings {
 
         for (int i = 0; i < str2.length(); i++) {
             if(alphabets[str2.charAt(i)-'a']) {
-                System.out.println("YES");
-                return;
+                //System.out.println("YES");
+                return "YES";
             }
         }
 
-        System.out.println("NO");
+//        System.out.println("NO");
+        return "NO";
     }
 
 }
